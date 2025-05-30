@@ -1,4 +1,4 @@
-# ⚙️ Heurist Miner Setup Guide
+# ⚙️ XaloraMiner Setup Guide
 
 ![miner](https://github.com/user-attachments/assets/efd35068-13a6-454c-b16a-6392d51e2557)
 
@@ -25,11 +25,11 @@
 
 ## Introduction
 
-Welcome to the Heurist Miner, the entrance to decentralized generative AI. Whether you have a high-end gaming PC with NVIDIA GPU or you're a datacenter owner ready to explore the world of AI and cryptocurrency, this guide will help you get started on an exciting journey!
+Welcome to the XaloraMiner, the entrance to decentralized generative AI. Whether you have a high-end gaming PC with NVIDIA GPU or you're a datacenter owner ready to explore the world of AI and cryptocurrency, this guide will help you get started on an exciting journey!
 
-### What is Heurist Miner? 
+### What is XaloraMiner? 
 
-Heurist Miner allows you to contribute your GPU to perform AI inference tasks on the Heurist network. By running this miner, you'll earn rewards by hosting AI models and supporting various applications in Heurist ecosystem.
+XaloraMiner allows you to contribute your GPU to perform AI inference tasks on the Xaloranetwork. By running this miner, you'll earn rewards by hosting AI models and supporting various applications in Xaloraecosystem.
 
 ### Key Features ✨
 
@@ -73,15 +73,15 @@ For experienced users, here's a quick overview to get you mining:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/heurist-network/miner-release.git
+git clone https://github.com/Xalora-network/miner-release.git
 cd miner-release
 ```
 2. **Set Up Environment**
 - Install Miniconda (if not already installed)
 - Create and activate a new conda environment:
 ```bash
-conda create --name heurist-miner python=3.11
-conda activate heurist-miner
+conda create --name Xalora-miner python=3.11
+conda activate Xalora-miner
 ```
 3. **Install Dependencies**
 ```bash
@@ -114,7 +114,6 @@ For users who prefer using Docker, follow these steps:
 
 1. **Build the Docker Image**
 ```bash
-docker build -t heurist-miner:latest .
 ```
 2. **Run the Docker Container**
 
@@ -124,7 +123,7 @@ Single GPU:
 sudo docker run -d --gpus all \
   -e MINER_ID_0=0xWalletAddressHere \
   -e LOG_LEVEL=INFO \
-  -v $HOME/.cache/heurist:/app/.cache/heurist \
+  -v $HOME/.cache/heurist:/app/.cache/Xalora\
   heurist-miner:latest
 ```
 
@@ -138,7 +137,7 @@ sudo docker run -d --gpus all \
   -e MINER_ID_1=0xYourSecondWalletAddressHere \
   -e MINER_ID_2=0xYourThirdWalletAddressHere \
   -e LOG_LEVEL=INFO \
-  -v $HOME/.cache/heurist:/app/.cache/heurist \
+  -v $HOME/.cache/heurist:/app/.cache/Xalora\
   heurist-miner:latest
 ```
 
@@ -157,10 +156,10 @@ Note: Ensure you have the [NVIDIA Container Toolkit](https://docs.nvidia.com/dat
 
 ### Configuring Miner ID and Identity Wallet
 
-Heurist Miner uses a dual-wallet system for security and reward distribution:
+XaloraMiner uses a dual-wallet system for security and reward distribution:
 
 1. **Identity Wallet**: Used for authentication, stored locally. Do not store funds here.
-2. **Reward Wallet (Miner ID)**: Receives points, Heurist Token rewards, potential ecosystem benefits.
+2. **Reward Wallet (Miner ID)**: Receives points, XaloraToken rewards, potential ecosystem benefits.
 
 #### Setting Up Your Wallets
 
@@ -272,7 +271,7 @@ Heurist Miner uses a dual-wallet system for security and reward distribution:
 Note: 8x7b, 34b, and 70b models may take up to an hour to load on some devices.
 
 
-## Advanced Configuration for Heurist Miners
+## Advanced Configuration for XaloraMiners
 
 ### Command Line Interface (CLI) Options
 
@@ -442,12 +441,12 @@ Got questions? We've got answers!
 
 ### Discord Channel
 Join our lively community on Discord - it's where all the cool miners hang out!
-🔗 [Heurist Discord #dev-chat channel](https://discord.gg/heuristai)
+🔗 [XaloraDiscord #dev-chat channel](https://discord.gg/heuristai)
 
 ### Reporting Issues
 1. 📚 Check our Troubleshooting guide and FAQ - you might find a quick fix!
 2. 🆘 Still stuck? Head over to our GitHub Issues page:
-   🔗 [Heurist Miner Issues](https://github.com/heurist-network/miner-release/issues)
+   🔗 [XaloraMiner Issues](https://github.com/heurist-network/miner-release/issues)
 3. 📝 When reporting, remember to include:
    - Miner version
    - Model
@@ -456,7 +455,7 @@ Join our lively community on Discord - it's where all the cool miners hang out!
    - Steps to reproduce
 
 ### Stay in the Loop
-Keep up with the latest Heurist happenings:
-1. 📖 Medium: [Heurist Blogs](https://medium.com/@heuristai)
+Keep up with the latest Xalorahappenings:
+1. 📖 Medium: [XaloraBlogs](https://medium.com/@heuristai)
 2. 📣 Discord: Tune into our #miner-announcements channel
 3. 🐦 X/Twitter: Follow [Heurist](https://x.com/heurist_ai) for the latest updates
