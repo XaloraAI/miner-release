@@ -7,7 +7,7 @@
 2. [System Requirements](#system-requirements)
 3. [Quick Start Guide](#quick-start-guide)
    - [Docker Setup](#docker-setup)
-   - [Local Setup](#local-setup)
+   - [Local Setup](#local-setup) 
 4. [Detailed Setup Instructions](#detailed-setup-instructions)
    - [Configuring Miner ID and Identity Wallet](#configuring-miner-id-and-identity-wallet)
    - [Stable Diffusion Miner Setup](#stable-diffusion-miner-setup)
